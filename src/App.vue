@@ -36,6 +36,7 @@
     });
     logoCount.value = 0;
   }
+  
   axios.get('http://logotypes.dev/all').then(res => {
     data.value = res.data;
     search('');
